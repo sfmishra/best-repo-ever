@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<lightning:breadcrumbs >
+        <lightning:breadcrumb label="Account" href="path/to/place/1" onclick="{!c.navigateToCustomAccountPage}"/>
+        <lightning:breadcrumb label="Contact" href="path/to/place/3" onclick="{!c.navigateToCustomContactPage}"/>
+    </lightning:breadcrumbs>
+</aura:component>
